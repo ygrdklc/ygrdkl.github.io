@@ -6,7 +6,7 @@
   <link href="https://ygrdklc.github.io/atom.xml" rel="self"/>
   
   <link href="https://ygrdklc.github.io/"/>
-  <updated>2020-11-14T17:22:44.030Z</updated>
+  <updated>2020-11-14T17:39:14.567Z</updated>
   <id>https://ygrdklc.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://ygrdklc.github.io/2020/11/15/B%E7%AB%99%E4%B8%8A%E8%A7%86%E9%A2%91/"/>
     <id>https://ygrdklc.github.io/2020/11/15/B%E7%AB%99%E4%B8%8A%E8%A7%86%E9%A2%91/</id>
     <published>2020-11-14T16:46:31.000Z</published>
-    <updated>2020-11-14T17:22:44.030Z</updated>
+    <updated>2020-11-14T17:39:14.567Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//https://m3u8.46cdn.com/movie-hls/165/A/16516099/index.m3u8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=98866081&amp;bvid=BV1K741127wp&amp;cid=168764753&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div>]]></content>
     
     
       
