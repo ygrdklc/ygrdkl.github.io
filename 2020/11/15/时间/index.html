@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客图片、视频使用及加密, 二次先生的博客">
+    <meta name="keywords" content="时间, 二次先生的博客">
     <meta name="description" content="欢迎来到二次先生的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>博客图片、视频使用及加密 | 二次先生的博客</title>
+    <title>时间 | 二次先生的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -250,7 +250,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -263,12 +263,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客图片、视频使用及加密</h1>
+                    <h1 class="description center-align post-title">时间</h1>
                 </div>
             </div>
         </div>
@@ -385,8 +385,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%93%8D%E4%BD%9C/">
-                                <span class="chip bg-color">操作</span>
+                            <a href="/tags/fun/">
+                                <span class="chip bg-color">fun</span>
                             </a>
                         
                     </div>
@@ -401,7 +401,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-12
+                    2020-11-15
                 </div>
                 
 
@@ -410,7 +410,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    280
+                    0
                 </div>
                 
 
@@ -432,38 +432,8 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="关于在文本中插入图片的具体做法"><a href="#关于在文本中插入图片的具体做法" class="headerlink" title="关于在文本中插入图片的具体做法"></a>关于在文本中插入图片的具体做法</h1><p>1.打开博客对应的<strong>主题（如themes-matery）目录</strong>，进入<strong>_config.yml</strong>文件</p>
-<p>   并修改<strong>”verifyPassword“选项为‘true’</strong>。</p>
-<p>2.为了保证密码原文不会被泄露到网页中，文章的密码必须是<strong>通过’SHA256’加密</strong>的。</p>
-<p>加密网址：<a target="_blank" rel="noopener" href="https://tool.oschina.net/encrypt?type=2">https://tool.oschina.net/encrypt?type=2</a></p>
-<p>在对应文章的Front-matter中写上**’password’的键和加密后的密文**</p>
-<p>   title: ….<br>   date: ….<br>   tags: ….</p>
-<p>   <strong>password: 加密后的密文</strong></p>
-<p>   …..</p>
-<p><strong>3.本地图片上传或网络图片上传</strong>  （<em>均添加在所写文章的正文部分</em>）</p>
-<p><u>本地上传</u>：</p>
-<p>​            </p>
-<p>​              <strong>img src=”对应本地目录的文件夹/对应照片名称（带后缀）”</strong></p>
-<p>​            <strong>（使用时img前有’&lt;’ ,”后有‘&gt;’）</strong></p>
-<p>​       </p>
-<p><u>网络上传</u>：</p>
-<p>​             </p>
-<p>​               <strong>&lt;img src= &gt;          //等于号后为”+图片网址+“</strong>    </p>
-<p><strong>4.视频引入方法</strong></p>
-<p><strong>B站，优酷等（非电影）</strong>：具体看图，下列代码&lt;&gt;均省略</p>
-<p>div style=”position: relative; width: 100%; height: 0; padding-bottom: 75%;”&gt;<iframe src="//player.bilibili.com/player.html?aid=98866081&amp;bvid=BV1K741127wp&amp;cid=168764753&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>&lt;/div</p>
-<img src="https://ftp.bmp.ovh/imgs/2020/11/8e003e84cc39f9f2.png">
-
-<img src="https://ftp.bmp.ovh/imgs/2020/11/49219827f0ed95b4.png">
-
-<p><strong>其他源（m3u8）</strong>：</p>
-<p>详见<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_26891045/article/details/51693571">https://blog.csdn.net/qq_26891045/article/details/51693571</a></p>
-<p>​        <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_30747253/article/details/98958493">https://blog.csdn.net/weixin_30747253/article/details/98958493</a></p>
-<p><strong>m3u8链接的在线播放</strong>：</p>
-<p>详见<a target="_blank" rel="noopener" href="https://www.52pojie.cn/thread-1154690-1-1.html">https://www.52pojie.cn/thread-1154690-1-1.html</a></p>
-<img src="https://ae04.alicdn.com/kf/H878eee12ee09406fb204ebc7fbe45c0dA.jpg">
-
-<img src="https://ae04.alicdn.com/kf/H06a19ac81165426bbfdd15ebe288bcbdd.jpg">
+                <iframe height="498" width="510" src="http://xcx.ccvxx.cn/box/m3u8/jiekou/?url=https://m3u8.46cdn.com/video-hls/101/2018/08/Gb36b7mD/Gb36b7mD.m3u8" frameborder="0" allowfullscreen="">
+</iframe>
             </div>
             <hr/>
 
@@ -488,7 +458,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ygrdklc.github.io/2020/11/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">https://ygrdklc.github.io/2020/11/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://ygrdklc.github.io/2020/11/15/%E6%97%B6%E9%97%B4/">https://ygrdklc.github.io/2020/11/15/%E6%97%B6%E9%97%B4/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -526,8 +496,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%93%8D%E4%BD%9C/">
-                                    <span class="chip bg-color">操作</span>
+                                <a href="/tags/fun/">
+                                    <span class="chip bg-color">fun</span>
                                 </a>
                             
                         </div>
@@ -697,16 +667,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/11/13/%E4%BA%8C%E6%AC%A1/">
+                <a href="/2020/11/15/%E6%97%B6%E9%97%B4/">
                     <div class="card-image">
                         
-                        <img src="https://ftp.bmp.ovh/imgs/2020/11/aafa68afba895eda.jpg" class="responsive-img" alt="二次(secret)">
                         
-                        <span class="card-title">二次(secret)</span>
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="时间">
+                        
+                        <span class="card-title">时间</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -716,9 +688,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-13
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -727,6 +699,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -742,10 +715,10 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/11/12/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+                <a href="/2020/11/15/%E5%8D%9A%E5%AE%A2%E5%9B%BE%E7%89%87%E3%80%81%E8%A7%86%E9%A2%91%E4%BD%BF%E7%94%A8%E5%8F%8A%E5%8A%A0%E5%AF%86/">
                     <div class="card-image">
                         
                         
@@ -762,7 +735,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-15
                             </span>
                         <span class="publish-author">
                             
@@ -772,7 +745,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -983,7 +955,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">690</span>&nbsp;字
+                class="white-color">676</span>&nbsp;字
             
             
             
